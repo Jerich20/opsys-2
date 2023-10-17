@@ -1,4 +1,4 @@
-#Praktikum 4 aruanne
+# Praktikum 4 aruanne
 Praktikum neljas ei esinenud erilisi probleeme, sest olen windowsiga rohkem tuttav kui Linuxiga. Aega kulus u 3 tundi. Vastuseks küsimustele: Üks tegevus, milleks on vaja
 system privileege on ajatsooni muutmine. Üks soovitus, mida microsoft soovitab on, et microsoft arvab,et peaksin sisse lülitama potentsiaalselt soovimatude rakenduste allalaadimise blokeerimise sätte, sest muidu võib mu seade olla haavatav.
 "Rakenduse- ja brauserisätted" - Potentsiaalselt soovimatute rakenduste allalaadimise blokeerimise säte on välja lülitatud. Teie seade võib olla haavatav. 
