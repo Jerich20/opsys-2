@@ -1,10 +1,14 @@
 # Praktikum 5 aruanne
 
 Kokku läks praktikumi läbimiseks u2 tundi ja vastustele mõtlemisele veel umbes tund. Siin on vastused küsimustele:
-5.1 minufail.txt lugemiseks on vaja kaustale vähemalt chmod 700 ja failile chmod 600. Kustutamiseks on kaustale vaja vähemalt samuti chmod 700 ja failile chmod 600.
-5.2 Kuna tegu on skriptiga ei piisa a=x õigusteks lisaks tuleb anda chmod +x skript.sh
+
+5.1 minufail.txt lugemiseks on vaja kataloogi  vähemalt x ja failile r õiguseid. Kustutamiseks on kaustale vaja x  ja failile  w õiguseid.
+
+5.2 Kuna tegu on skriptiga ei piisa a=x õigusteks. Tuleb anda a+x, sest see annab append ja execute õigused, mida on vaja skripti käivituseks.
+
 5.3 Linux paneb iga kasutaja automaatselt omanimelisse gruppi
-5.4 minimaalne fail sisu uusfail.txt kuvamiseks on r. siin on kuvatõmmised vajalikest käskudest:
+
+5.4 minimaalne fail sisu uusfail.txt kuvamiseks on r ja x. siin on kuvatõmmised vajalikest käskudest:
 
 <img width="959" alt="Kuvatõmmis 2023-10-17 195547" src="https://github.com/Jerich20/opsys2023/assets/144961112/d368327e-6d4a-4c27-9347-fbbfedb9ff9e">
 <img width="451" alt="Kuvatõmmis 2023-10-17 195604" src="https://github.com/Jerich20/opsys2023/assets/144961112/781ad944-507d-4ae4-80af-649874cc7f27">
@@ -26,12 +30,21 @@ setuid õigusi on vaja, et kasutaja saaks avada faile õigustega, mis neil muidu
 5.7 opetaja, root ja peeter
 
 5.8 
-# file: hinded.txt
-# owner: opetaja
-# group: opetaja
+
+#file: hinded.txt
+
+#owner: opetaja
+
+#group: opetaja
+
 user::rw-
+
 group::---
+
 group:direktor:rw-
+
 mask::rw-
+
 other::---
+
 5.9 Mitte keegi ei saa chattr +i parameetritega faili modifitseerida ega kustutada. Et seda faili kustutada tuleb kasutada käsku chattr -i testFail-2.
