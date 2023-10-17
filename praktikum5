@@ -1,0 +1,6 @@
+#Praktikum 5 aruanne
+Kokku läks praktikumi läbimiseks u2 tundi ja vastustele mõtlemisele veel umbes tund. Siin on vastused küsimustele:
+5.1 minufail.txt lugemiseks on vaja kaustale vähemalt chmod 700 ja failile chmod 600. Kustutamiseks on kaustale vaja vähemalt samuti chmod 700 ja failile chmod 600.
+5.2 Kuna tegu on skriptiga ei piisa a=x õigusteks lisaks tuleb anda chmod +x skript.sh
+5.3
+5.4 minimaalne fail sisu uusfail.txt kuvamiseks on r. siin on kuvatõmmised vajalikest käskudest:
