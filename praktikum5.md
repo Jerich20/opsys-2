@@ -1,4 +1,4 @@
-#Praktikum 5 aruanne
+# Praktikum 5 aruanne
 
 Kokku läks praktikumi läbimiseks u2 tundi ja vastustele mõtlemisele veel umbes tund. Siin on vastused küsimustele:
 5.1 minufail.txt lugemiseks on vaja kaustale vähemalt chmod 700 ja failile chmod 600. Kustutamiseks on kaustale vaja vähemalt samuti chmod 700 ja failile chmod 600.
