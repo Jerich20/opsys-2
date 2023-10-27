@@ -1,4 +1,4 @@
-#Praktikum 6 aruanne
+# Praktikum 6 aruanne
 Praktikum 6 oli üsna keeruline ja tuli palju otsida käsklusi internetist ja kuidas neid modifitseerida. Kokku läks mul u 3 tundi.
 Ülesanne 1
 <img width="979" alt="Kuvatõmmis 2023-10-16 111032" src="https://github.com/Jerich20/opsys2023/assets/144961112/03deb54c-7f93-485f-a1c9-0abd7a08b956">
