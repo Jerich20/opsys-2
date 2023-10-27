@@ -12,5 +12,6 @@ Nüüd tapsin NOHUP gediti käsuga kill -9
 Ülesanne 3
 Käsujada: ps -axu | grep '[d]aemon' | awk '{print $11, $12, $13}'
 <img width="960" alt="Kuvatõmmis 2023-10-27 203747" src="https://github.com/Jerich20/opsys2023/assets/144961112/0c1a9cfe-78fe-4ad3-a344-b6fbe833cab1">
+Ülesanne 4
 Käsujada: ip a | grep -oP 'inet \K[\d.]+' | head -n 1 | tee ipaddress.txt
 <img width="960" alt="Kuvatõmmis 2023-10-27 204042" src="https://github.com/Jerich20/opsys2023/assets/144961112/3e563f15-2bae-4d05-9cf2-2b2f81d3a826">
