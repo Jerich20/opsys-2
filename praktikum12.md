@@ -1,5 +1,6 @@
 # Praktikum 12 aruanne
 Ülesanne 3
+
 #!/bin/sh
 echo "Sisesta nimi: "
 read nimi
@@ -10,6 +11,7 @@ read number
 echo "Õpilane $nimi, erialal $eriala, martiklinumbriga $number"
 
 Ülesanne 4
+
 #!/bin/bash
 for i in $(ls)
 do
@@ -22,12 +24,14 @@ fi
 done
 
 Ülesanne 5
+
 #!/bin/bash
 IFS=$'\n'
 #Eraldaja ümber muutmine tühikust reavahetuseks
 echo $(ps -A | tr -s ' ' | grep -w $1 |cut -d ' ' -f2) $1
 
 Ülesanne 6
+
 #!/bin/bash
 astendamine () {
 a=1
